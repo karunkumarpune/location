@@ -14,6 +14,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="in.karunkumar.rxandroid.MapsActivity" />
+
+
+
     <ImageButton
         android:layout_margin="30dp"
         android:layout_alignParentBottom="true"
@@ -23,4 +26,20 @@
         android:src="@drawable/ic_gps_fixed"
         android:background="@android:color/transparent"
         />
+
+
+    <ImageButton
+        android:layout_alignParentRight="true"
+        android:layout_margin="30dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/click_current_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_gps_fixed"
+        android:background="@android:color/transparent"
+        />
+
+
+
+
 </RelativeLayout>
